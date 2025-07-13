@@ -1,0 +1,168 @@
+ /* body{
+    background-color:aquamarine;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    flex-direction:column;
+    padding:256px;
+ }
+ .container{
+    background-color:blue;
+    width:334px;
+    height:345px;
+    padding:15px;
+
+ }
+  #name7 {
+   font-weight:bold;
+   
+   font-family:'Times New Roman', Times, serif;
+
+ }
+ .nxtbutton1{
+   position:relative;
+   left:45px;
+   top:55px;
+   right:55px;
+   
+
+ }
+ #name1{
+   margin:26px;
+   
+ }
+ .link1{
+   color:orange;
+ }
+ nxtbutton{
+   position:relative;
+   top:45px;
+   right:67px;
+ }
+ .imagelogo{
+  width:100px;
+  height:15px;
+ }
+ 
+
+
+  */
+/* Main outer container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f1f3f4;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Logo section */
+.logo img {
+  width: 90px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Inner card container */
+.container2 {
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 30px 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Title text */
+#name3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #202124;
+}
+
+/* Subtext under the title */
+.con {
+  font-size: 16px;
+  color: #5f6368;
+  margin-bottom: 30px;
+}
+
+/* Form container */
+#mailbox {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* Email input */
+#email1 {
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  transition: border 0.3s;
+}
+
+#email1:focus {
+  border: 2px solid #1a73e8;
+  outline: none;
+}
+
+/* Forgot email text */
+#fgmail {
+  font-size: 14px;
+  color: #1a73e8;
+  margin: 5px 0 20px 0;
+  cursor: pointer;
+  text-align: left;
+}
+
+#fgmail:hover {
+  text-decoration: underline;
+}
+
+/* Create Account link */
+.link1 {
+  font-size: 14px;
+  color: #1a73e8;
+  margin-bottom: 20px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.link1:hover {
+  text-decoration: underline;
+}
+
+/* Next button */
+.nxtbutton {
+  background-color: #1a73e8;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.nxtbutton:hover {
+  background-color: #185abc;
+}
+
+/* Responsive tweaks */
+@media (max-width: 480px) {
+  .container2 {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
